@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 8/8/2022
+   
+   Filename: admin_form.css
+
+*/
+
+/*article*/
+article span{
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+article input:hover{
+    box-shadow: 0 0 10px yellow;
+    cursor: pointer;
+}
+
+article .eImg:hover{
+    box-shadow: 0 0 10px yellow;
+    cursor: pointer;
+}
+
+/*alert message box*/
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+

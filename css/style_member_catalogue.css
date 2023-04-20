@@ -1,0 +1,100 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 9, 2022, 8:35:41 PM
+    Author     : Chang Ching We
+    File Name  : style_member_catalogue.css
+    Date       : 09/08/2022
+*/
+
+/*Style - content*/
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    background: #99ccff;
+    height: 100%;
+}
+
+.content > div {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+div.content_container {
+    background-image: radial-gradient(white 35%, #cce6ff 65%);
+}
+
+.content_container > h4 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0066cc;
+    margin: 10px;
+}
+
+.search-container {
+    margin: 10px;
+}
+
+/*Style - catalogue table*/
+div.content_container table {
+    border: 5px solid #0066cc;
+    border-collapse:separate;
+    width: 100%
+}
+
+div.content_container th, td {
+    border: 2px solid #0066cc;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.content_container table > caption {
+    color: #0066cc;
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
+}
+
+div.content_container td > button {
+    background-color : #0066cc;
+    border-radius: 4px;
+    font-weight: bold;
+    color:  white;
+}
+
+.btn-reg:hover{
+    background-color:#45B8AC;
+    color: white;
+}
+
+/*event images*/
+.eImg{
+    width: 20%;
+    height: 20%;
+    border: 2px solid #99ccff;
+    margin-left: 0%;
+}
+
+/* Reeponsive Layout */
+@media only screen and (max-width: 999px){
+    .eImg{
+    width: 50px;
+    height: 50px;    
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    div.content_container th, td {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .eImg{
+        display: none;
+    }
+}

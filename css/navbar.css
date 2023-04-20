@@ -1,0 +1,106 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 27/7/2022
+   
+   Filename: navbar.css
+
+*/
+
+/* Navigation */
+nav{
+    background: linear-gradient(to left,#4572BA, rgba(39, 36, 38, 0.16));
+}
+
+.logo{
+    width: 30%;
+    object-fit:cover;
+}
+
+/*Navigation avatar*/
+header .dropdownAvatar{
+    position: relative;
+    display: inline-block;
+}
+
+header .dropdownContent{
+    position: absolute;
+    display: none;
+    background-color: #999999;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    right: 0;
+    padding: 5px;
+    width: 250%;
+    border-radius: 5px;
+}
+
+header .adminDrop{
+    width: 600%;
+}
+
+header .memberDrop{
+    width: 300%;
+}
+
+header .personal{
+    padding: 5px 5px 10px 5px;
+    margin: 0% auto 0% auto;
+}
+
+header tr, td{
+    border: none;
+    font-weight: normal;
+    padding: 5px;
+    font-size: 18px;
+}
+
+header .dropdownContent a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    background-color: #a9a8af;
+}
+
+header .dropdownContent a:hover{
+    background-color: #cccccc;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+header .dropdownBtn{
+    border: none;
+    cursor: pointer;
+}
+
+header .dropdownBtn:hover{
+    box-shadow: 2px 1px 27px 15px #FFFFFF;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+header .dropdownAvatar:hover .dropdownContent{
+    display: block;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 991px){
+    header .dropdownContent{
+        left: 0;
+    }
+
+    header .logo{
+        width: 20%;
+    }
+
+    header .nav-brand{
+        width: 300px;
+    }
+}

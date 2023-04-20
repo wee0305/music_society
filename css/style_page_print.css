@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 17, 2022, 11:55:26 PM
+    Author     : Chang Ching We
+    File Name  : style_page_print.css
+*/
+
+@charset "utf-8";
+
+/*Hidden Objects*/
+header,
+nav,
+footer,
+.btn-print,
+.btn-back{
+    display: none;
+}
+
+/*Layout - page*/
+@page {
+    size: 8.5in 11in;
+    margin: 0.5in;
+}
+
+div.content_container table {
+    width: 100%;
+}
+
+/*Styles - typography*/
+div.content_container h4 {
+    text-align: center;
+    font-size: 14pt;
+    display: block;
+}
+
+div.content_container td {
+    font-size: 10pt;
+    margin: 0.1in 0in;
+    padding: 2px;
+    orphans: 3;
+    widows: 3;
+}

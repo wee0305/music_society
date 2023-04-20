@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18 Aug 2022, 12:11:56 am
+    Author     : Wong Jia He
+
+    Filename: style_member_faqs.css
+*/
+
+/*FAQ*/
+.backgroundfaq{
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.container-faq{
+width: 60%;
+margin: auto;
+height: 100%;
+}
+
+.container-faq h2{
+    position: relative;
+    text-align: center;
+}
+
+.container-faq h2 ::after{
+    position: absolute;
+}
+
+.accordion{
+    width: 100%;
+    padding:0 10px;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.accordion > img{
+width: 25px;
+}
+
+.accordion .icon{
+    transition: all .5s ease-in;
+}
+
+.accordion h3{
+    font-size: 22px;
+}
+
+.panel{
+    padding: 0 15px;
+    border-left:solid black;
+    margin-left: 25px;
+    font-size: 17px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0;
+    transition:all .2s ease-in;
+}
+
+.active{
+    background-color: black;
+}
+
+.active h3{
+    color: whitesmoke;
+}

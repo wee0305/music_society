@@ -1,0 +1,29 @@
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 27/7/2022
+   
+   Filename: style.css
+
+*/
+
+/* Main Structural Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+/*article*/
+article{
+    background: linear-gradient(rgba(6, 101, 135, 1), rgba(255, 255, 255, 0));
+}
+
+/*article span for icon*/
+article span{
+    vertical-align: middle;
+}

@@ -1,0 +1,40 @@
+/*
+   Web System
+    
+   Music Society
+   Author:Eric Chee Wei Jiat
+   Date: 15/8/2022
+   
+   Filename: student_committee_header.css
+
+*/
+
+/* Header */
+header{
+    background-image: url('../images/guitar_2.jpg');
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header h1{
+    margin-top: 35%;
+    margin-left: 5%;
+    color: orange;
+    font-size: 6em;
+}
+
+article h2{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px){
+    header h1{
+         margin-top: 40%;
+        font-size: 4em;
+    }
+}
+
+

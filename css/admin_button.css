@@ -1,0 +1,160 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 11/8/2022
+   
+   Filename: admin_button.css
+
+*/
+
+/*article*/
+article span{
+    vertical-align: middle;
+}
+
+/*set all button design*/
+article .button{
+    background-color: #04cdff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/*add button*/
+article .add{
+    background-color: #3333ff;
+}
+
+article .add:hover{
+    background-color: #6666ff;
+    box-shadow: 0 0 10px blue;
+}
+
+/*reset button*/
+article .reset{
+    background-color: #ff212c
+}
+
+article .reset:hover{
+    background-color: #ff2882;
+    box-shadow: 0 0 10px #ff38b3;
+}
+
+/*edit button*/
+article .edit:hover{
+    background-color: #59cdff;
+    box-shadow: 0 0 10px blue;
+}
+
+/*view button*/
+article .view{
+    background-color: #12ff39;
+}
+
+article .view:hover{
+    background-color: #48ff74;
+    box-shadow: 0 0 10px #557359;
+}
+
+/*delete button*/
+article .delete{
+    background-color: red;
+}
+
+article .delete:hover{
+    background-color: #f71069;
+    box-shadow: 0 0 10px red;
+}
+
+/*back button*/
+article .back{
+    background-color: #ff1a79;
+}
+
+article .back:hover{
+    box-shadow: 0 0 10px #ff08cf;
+}
+
+/*search button*/
+article .search{
+    background-color: #3c4fff;
+    color: white;
+    width: 50%;
+}
+
+article .search:hover{
+    box-shadow: 0 0 10px #bb5dff;
+}
+
+/*capacity button*/
+article .capacity{
+    background-color: #48ff74;
+    color: white;
+    width: 50%;
+}
+
+article .capacity:hover{
+    box-shadow: 0 0 10px #12ff39;
+}
+
+/*readd the event*/
+article .readd{
+    background-color: #35c42c;
+    color: white;
+}
+
+article .readd:hover{
+    box-shadow: 0 0 10px #0fffc8;
+    background-color: #48ff74;
+}
+
+/*disabled button*/
+article .disabled{
+    background-color: #cccccc;
+    color: white;
+}
+
+/*print button*/
+article .print{
+    background-color: #cb9bff;
+    color: white;
+}
+
+article .print:hover{
+    box-shadow: 0 0 10px #9079ff;
+    background-color: #d91cff;
+}
+
+/*confirm button*/
+article .confirm{
+    background-color: #33ff33;
+    color: white;
+}
+
+article .confirm:hover{
+    background-color: #00cc00;
+    box-shadow: 0 0 10px #00ff66;
+}
+
+/*back to list button*/
+article .backToList{
+    background-color: #0099ff;
+    color: white;
+}
+
+article .backToList:hover{
+    background-color: #0066cc;
+    box-shadow: 0 0 10px #66ccff;
+}

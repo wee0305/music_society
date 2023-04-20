@@ -1,0 +1,206 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 9, 2022, 8:35:41 PM
+    Author     : Chang Ching We
+    File Name  : style_member_dashboard.css
+    Date       : 09/08/2022
+*/
+/*Style - content*/
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    background: #99ccff;
+    height: 100%;
+}
+
+.content > div {
+    background: white;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.content_container > h4 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0066cc;
+    margin: 10px;
+}
+
+div.content_container {
+  background: radial-gradient(white 30%,#99ccff 70%);
+}
+
+/*Style - announcement table*/
+table {
+    border-collapse:separate;
+    width: 100%
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+}
+
+.announcementDate {
+    font-weight: bold;
+    text-align: center;
+}
+
+.announcementMessage {
+    text-align: justify;
+}
+
+/*Style - quick access buttons*/
+.content_container > button > a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Style - Events and Activities Flip Card*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 330px;
+    height: 330px;
+    perspective: 1000px;
+    margin: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.flip-card-front > img {
+    width: 330px;
+    height: 330px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    color: #0066cc;
+    transform: rotateY(180deg);
+}
+
+.access {
+    background-color: #99ccff;
+}
+.smilling-face {
+    width: 150px;
+    height: 150px;
+}
+
+.flip-card-back table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flip-card-back table > th {
+    text-align: center;
+}
+
+.flip-card-back table td {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.flip-card-back table h1 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.button-access{
+    background-color:#EFC050;
+    border-color: transparent;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.button-access:hover {
+    background-color: #88b04b;
+    color: white;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1070px) {
+    .flip-card {
+        width: 260px;
+        height: 260px;
+    }
+
+    .flip-card-front > img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .smilling-face {
+        width: 100px;
+        height: 100px;
+    }
+
+    .flip-card-back h1 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flip-card {
+        width: 250px;
+        height: 250px;
+    }
+
+    .flip-card-front > img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .smilling-face {
+        width: 100px;
+        height: 100px;
+    }
+}

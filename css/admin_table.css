@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 11/8/2022
+   
+   Filename: event_table.css
+
+*/
+
+/*article*/
+article span.material-symbols-outlined{
+    vertical-align: middle;
+}
+
+article table{
+    width:100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 5%;
+    vertical-align: middle;
+    overflow-x: auto;
+}
+
+article tbody{
+    background-color: white;
+}
+
+article th, td.no{
+    font-weight: bold;
+}
+
+article td.no{
+    width: 60px;
+}
+
+article tr.title{
+    background-color: rgb(51,207,227);
+    color: white;
+    height: 50px;
+}
+
+article tbody tr:nth-child(even){
+    background-color: rgba(205, 205, 210, 0.8);
+}
+
+article tr.data:hover{
+    box-shadow: 0 0 10px #99ffff;
+    text-shadow: 0 0 10px #99ffff;
+    background-color: rgba(116, 116, 118, 0.8);
+    color: white;
+}
+
+article th.viewColumn, th.editColumn{
+    width: 10%;
+}
+
+article th.deleteColumn{
+    width: 12%;
+}
+
+article td.total{
+    color: black;
+    text-shadow: 0 0 10px #99ffff;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+article th.sort{
+    cursor: pointer;
+}
+
+article th.sort:hover{
+    box-shadow: 0 0 10px #9928f5;
+    text-shadow: 0 0 10px #9928f5;
+    background-color: #4445f2;
+}
+
+/*search*/
+/*search input*/
+article input{
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+}
+
+article .searchBar{
+    height: 50px;
+}
+article #search{
+    height: 40px;
+}
+
+article .searchLabel{
+    float: right;
+}
+
+@media only screen and (max-width: 1348px){
+    .editColumn{
+        display: none;
+    }
+    
+    article table, th, td.st, tr.data, span.material-symbols-outlined{
+        font-size: 15px;
+    }
+    
+    article .none{
+        display: none;
+    }
+    
+}

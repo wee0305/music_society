@@ -1,0 +1,122 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 9, 2022, 8:35:41 PM
+    Author     : Chang Ching We
+    File Name  : style_member_enrollment_details.css
+*/
+
+/*Style - content*/
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    background: #99ccff;
+    height: 100%;
+}
+
+.content > div {
+    background: white;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.content_container > h4 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0066cc;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+div.content_container {
+  background-image: radial-gradient(white 35%, #cce6ff 65%);
+}
+
+/*Style - enrollment details*/
+div.content_container table {
+    border: 5px solid #0066cc;
+    border-collapse:separate;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+div.content_container td {
+    text-align: justify;
+    padding:3px;
+    font-size: 15px;
+}
+
+div.content_container table > caption {
+    color: #0066cc;
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
+}
+
+.btn-print {
+    background-color : #0066cc;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 80px;
+    color:  white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-back {
+    background-color : #0066cc;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 80px;
+    color:  white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.btn-print:hover{
+    background-color:#45B8AC;
+    color: white;
+}
+
+.btn-back:hover{
+    background-color:#45B8AC;
+    color: white;
+}
+
+/* Reeponsive Layout */
+@media only screen and (max-width: 1000px) {
+    div.content_container table {
+        width: 55%;
+    }
+     
+}
+
+@media only screen and (max-width: 800px) {
+    div.content_container table {
+        width: 65%;
+    }
+    
+    div.content_container td {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div.content_container table {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    div.content_container table {
+        width: 85%;
+    }
+}

@@ -1,0 +1,37 @@
+/*
+  
+  Music Society 
+  Author: Eric Chee Wei Jiat
+  Date: 4/9/2021
+
+  Filename: student_committee.css 
+
+*/
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 70px;
+    text-align: left;
+}
+
+
+/* Style the images inside the grid */
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 230px;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1230px){
+    .column{
+        width: 100%;
+    }
+}

@@ -1,0 +1,158 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 Aug 2022, 12:36:58 am
+    Author     : Wong Jia He
+
+    Filename: style_edit_profile.css
+*/
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    background: #99ccff;
+}
+
+article div.bg-content{
+    background: radial-gradient(white 30%,#99ccff 70%);
+    width: 100%;
+}
+
+body{
+    background: #f3f3f3;
+}
+
+.profile{
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    width: 80%;
+    height: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 50px;
+}
+
+/*left column */
+.profile .left{
+    flex: 40%;
+    background: linear-gradient(to right, #01a9ac, #01dbdf);
+    padding: 30px 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.left h4{
+    margin-bottom: 10px;
+}
+
+.left p{
+    font-size: 12px;
+}
+
+/*main column */
+.profile .right{
+    flex: 100%;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px;
+    display: flex;
+}
+
+div .notes{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #04cdff;
+}
+
+h6 span{
+    vertical-align: middle;
+}
+
+div h6{
+    color: black;
+    padding: 10px;
+} 
+
+div .info_data{
+    width: 100%;
+}
+
+.form-floating{
+    width: 90%;
+}
+
+.error{
+    text-align: left;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*btn*/
+article .btn{
+    background-color : #0066cc;
+    color: white;
+}
+
+article .btn-back{
+    background-color: #ff0caf;
+    color: white;
+}
+
+article .btn-edit:hover{
+    background-color: #45B8AC;
+    color: white;
+}
+
+article .btn-back:hover{
+    background-color: #ff0874;
+    color: white;
+}
+
+/*edit avatar*/
+article .editAvatar{
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+}
+
+article .avatarImg{
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+article .editLink{
+    opacity: 1;
+    transition: .5s ease;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    top: 0%;
+    border: 1px solid grey;
+}
+
+article .camera{
+    color: grey;
+    font-size: 3em;
+    margin-top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 700px) {
+    .profile{
+        flex-direction: column;
+    }
+}

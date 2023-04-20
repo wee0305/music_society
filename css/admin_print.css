@@ -1,0 +1,69 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    web system
+    Author     : Leong Kuan Fei
+    File Name  : admin_print.css
+*/
+
+@charset "utf-8";
+
+/*Hidden Objects*/
+header,
+nav,
+footer,
+.btn-print,
+.btn-back{
+    display: none;
+}
+
+/*Layout - page*/
+@page {
+    size: 8.5in 11in;
+    margin: 0.5in;
+}
+
+/*admin event*/
+article img.pEventImg{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+article img.imgEvent{
+    display: none !important;
+}
+
+article div.btnGroup{
+    display: none !important;
+}
+
+/*admin register*/
+article .avatar{
+    display: none;
+}
+
+article img.pMemAvatar{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+article h4.avatarDesc{
+    display: block !important;
+}
+
+article table.sDetails, table.rDetails, table.pDetails{
+    width: 100% !important;
+}
+
+article div.prDetails{
+    display: block !important;
+}
+
+article img{
+    width: 120px !important;
+    height: 120px !important;
+}

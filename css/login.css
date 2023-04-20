@@ -1,0 +1,59 @@
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 27/7/2022
+   
+   Filename: login.css
+
+*/
+
+/* Login */
+article h1{
+    text-shadow: 0 0 10px lightblue;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+article .input-group{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article button{
+    width: 10%;
+}
+
+article a:hover{
+    text-shadow: 0 0 10px yellow;
+}
+
+article span{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+article div .error{
+    color: red;
+}
+
+@media only screen and (max-width: 1210px){
+    article button{
+        width: 20%;
+    }
+    
+    article .input-group{
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width: 900px){
+    article button{
+        width: 40%;
+    }
+    
+}

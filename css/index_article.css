@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 27/7/2022
+   
+   Filename: style.css
+
+*/
+
+article a:hover{
+    text-shadow: 0 0 5px lightblue;
+}
+
+/*music philosophy*/
+article div.accor{
+    background: url('../images/drum_1.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 1000px;
+    width: 100%;
+}
+
+/*form*/
+article input, textarea{
+    width: 50%;
+}

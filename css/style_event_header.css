@@ -1,0 +1,44 @@
+
+/* 
+    Created on : Jul 30, 2022, 11:38:10 AM
+    Author     : Chang Ching We
+    Filename   : style_event_header.css
+*/
+
+/* Header */
+header h1{
+    color:#ffcc00;
+    font-weight: bold;
+    font-size: 6em;
+    margin-top: 35%;
+    margin-left: 35%;
+}
+
+header{
+    background-image: url('../images/event_1.jpg');
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Reeponsive Text */
+@media only screen and (max-width: 1025px) {
+    header h1{
+        font-size: 4em;
+        margin-top: 80%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    header h1{
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    header h1{
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,218 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 Aug 2022, 1:01:59 am
+    Author     : Wong Jia He
+    Date        : 10/8/2022
+   
+   Filename: index_member.css
+*/
+
+/*member page*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.member{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: grey;
+}
+
+.main{
+    width:1130px;
+    max-width:95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.member-text{
+    width:550px;
+}
+
+.member-text h1{
+    color: white;
+    font-size:80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.member-text h5{
+    color: white;
+    font-size:25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.member-text h5 a span{
+    color: red;
+}
+
+.member-text a{
+    color:red;
+}
+
+.member-text p{
+    color:lightcyan;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size:18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background: lightcyan;
+    color: cornflowerblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+/*member avatar*/
+.uploadImg{
+    width: 500px;
+}
+
+/*member_reg_form*/
+.content > div {
+    background: white;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.content_container{
+    border-style: inset;
+    border-color: #99ccff;
+    border-width: 10px;
+
+}
+
+.content_container > h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0066cc;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.div > h2{
+    text-align: left;
+}
+
+table {
+    font-family: arial, sans-serif;
+    width: 50%;
+    height: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+#fname, #lname, #programme, #stud_id, #username, #password, #confPsw, #email, #name, #tel, #DateOfBirth {
+    width: 70%;
+    height: 32px;
+    border: 1px solid #A6A6A6;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#faculty,#interest{
+    width: 73%;
+    height: 33px;
+    border: 1px solid #A6A6A6;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#btn_sub:hover{
+    background: #ff9933;
+    color: white;
+    cursor: pointer;
+}
+
+#btn_reset:hover{
+    background: #666666;
+    color: white;
+    cursor: pointer;
+}
+
+#btn_sub, #btn_reset{
+    border-radius: 12px;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+    height: 30px;
+}
+
+#btn_reset{
+    background-color: #99ccff;
+}
+
+#btn_sub{
+    background-color: #cccccc;
+}
+
+.button_style{
+    padding: 10px;
+    margin-left: 25%;
+}
+
+.err_msg{
+    padding: 2px;
+    margin-left: 40%;
+    background: #ff9933;
+    color: white;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.err_msg h4{
+    text-align: center;
+    color: red;
+}
+
+#rg_right {
+    text-align: right;
+}
+
+#login:hover{
+    color:#ffcc99;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 960px){
+    table{
+        width: 100%;
+    }
+    
+    option{
+        font-size: 13px;
+    }
+}
+

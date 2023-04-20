@@ -1,0 +1,95 @@
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 5/9/2022
+   
+   Filename: admin_article.css
+
+*/
+
+article span.material-symbols-outlined{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+article .title{
+    font-weight: bold;
+    color: white;
+}
+
+article table.upEvents{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Card*/
+article img.cardEvent {
+    width: 350px;
+    height: 350px;
+}
+
+article .cardDesc{
+    height: 360px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    width: 100%;
+}
+
+article div.cardDesc h1{
+    font-size: 40px;
+    color: #0099ff;
+}
+
+article div.cardDesc h3{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+article div.capacityBar{
+    width: 70%;
+    border: 1px solid black;
+    color: black;
+    height: 30px;
+}
+
+article div.register{
+    display: inline-block;
+    color: white;
+    height: 29px;
+}
+
+article .cardDesc h1{
+    padding: 10px;
+    width: 100%;
+}
+
+article .button{
+    width: 30%;
+    margin-left: 35%;
+}
+
+article tr.pEventImg{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px){
+    article tr.pEventImg{
+        display: block;
+    }
+
+    article td.eventImg{
+        display: none;
+    }
+
+    article .cardDesc{
+        height: 500px;
+    }
+    
+    article .button{
+        width: 40%;
+    }
+    
+}

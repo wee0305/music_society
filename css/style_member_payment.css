@@ -1,0 +1,237 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 9, 2022, 8:35:41 PM
+    Author     : Chang Ching We
+    File Name  : style_member_enrollment_details.css
+*/
+
+/*Style - content*/
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    background: #99ccff;
+    height: 100%;
+    padding: 10px;
+}
+
+.content > div {
+    background: white;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+}
+
+.content_container > h4 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0066cc;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+div.content_container {
+  background-image: radial-gradient(white 35%, #cce6ff 65%);
+}
+
+/*Style - body*/
+.payment {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.payment_panel {
+    padding: 45px 80px 0;
+    flex: 1;
+}
+
+.title {
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: #0066cc;
+
+}
+
+.payment_method {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.method_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_logo {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-input {
+    margin: 15px;
+}
+
+.payment_desc {
+    font-weight:bold;
+}
+
+input[type='radio'] {
+    display: inline-block;
+    align-items: center;
+}
+
+.card_details_field {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card_details_field label {
+    display: block;
+    margin: 10px 0px;
+    color: black;
+}
+
+.shortInfo {
+    font-size: 12px;
+    font-weight: 300;
+    display: block;
+    margin-top: 10px;
+    opacity: .5;
+    color: #2e2e2e;
+}
+
+div[class*='col'] {
+    width: 382px;
+}
+
+input[type='text'],
+input[type='password'] {
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+    padding-right: 40px;
+    padding-left: 16px;
+    color: rgba(46, 46, 46, .8);
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+    border-color: rgb(119, 219, 119);
+}
+
+.indent_input_field {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: space-evenly;
+}
+
+.indent_input_field div {
+    width: 182px;
+}
+
+.selector_box {
+    width: 60%;
+    margin-bottom: 10px;
+
+}
+
+/*Style - button*/
+.button{
+    display: flex;
+    width: 100%;
+    height: 96px;
+    padding: 0 80px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn_submit {
+    background-color : #0066cc;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 80px;
+    color:  white;
+    margin: 10px;
+}
+
+button.btn_cancel {
+    background-color : #ff6f61;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 80px;
+    color:  white;
+    margin: 10px;
+}
+
+button.btn_submit:hover {
+    background-color:#45B8AC;
+}
+
+button.btn_cancel:hover {
+    background-color:#DC143C;
+}
+
+/*Style - Alert Messages*/
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.warning {background-color: #ff9800;}
+.alert.info {background-color: #48C9B0;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+/* Reeponsive Layout */
+@media only screen and (max-width: 500px) {
+    .visa_master_logo{
+        width: 100%;
+        height: auto;
+    }
+    .payment_panel{
+        padding: 15px 15px 0;
+    }
+
+    .payment {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

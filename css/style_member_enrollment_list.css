@@ -1,0 +1,119 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 9, 2022, 8:35:41 PM
+    Author     : Chang Ching We
+    File Name  : style_member_enrollement_list.css
+    Date       : 09/08/2022
+*/
+
+/*Style - content*/
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    background: #99ccff;
+    height: 100%;
+}
+
+.content > div {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+div.content_container {
+    background: radial-gradient(white 35%, #cce6ff 65%);
+}
+
+.content_container > h4 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0066cc;
+    margin: 10px;
+}
+
+/*Style - enrollment list table*/
+article table {
+    border: 5px solid #0066cc;
+    border-collapse:separate;
+    width: 100%
+}
+
+article th, td {
+    border: 2px solid #0066cc;
+    padding: 5px;
+    font-weight: bold;
+}
+
+article th, td {
+    text-align: center;
+}
+
+article table > caption {
+    color: #0066cc;
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
+}
+
+article td .btnDetail {
+    background-color : #0066cc;
+    color: white;
+}
+
+.btnSubmit {
+    background-color : #ff6f61;
+    color: white;
+}
+
+.btnDetail:hover {
+    background-color: #45B8AC;
+}
+
+.btnSubmit:hover {
+    background-color:#DC143C;
+    color: white;
+}
+
+/*Style - Alert Messages*/
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.alert.info {
+    background-color: #48C9B0;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+/* Reeponsive Layout */
+@media only screen and (max-width: 800px) {
+    th, td {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    th, td {
+        font-size: 2vw;
+    }
+}

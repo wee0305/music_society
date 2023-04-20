@@ -1,0 +1,172 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 18/8/2022
+   
+   Filename: seat.css
+
+*/
+
+article {
+    background: #99ccff;
+}
+
+article form{
+    background: radial-gradient(white 30%,#99ccff 70%);
+}
+
+.rowSeat{
+    display: flex;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnSeat {
+    float: left;
+    padding: 5px;
+    text-align: center;
+    flex: 50%;
+}
+
+.over{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 950px;
+    width: 98%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.hall{
+    background-image: url('../images/seat_map.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 950px;
+    width: 2000px;
+}
+
+article div.dSeat{
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+/* Clear floats after the columns */
+.rowSeat:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p.colseat{
+    color: black;
+    font-size: 2em;
+    margin-top: 200px;
+}
+
+/*article*/
+article span.material-symbols-outlined{
+    vertical-align: middle;
+}
+
+/*set button design*/
+article .button{
+    background-color: #00f900;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"]+label{
+    background-color: #00f900;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+article .seatButton:hover{
+    box-shadow: 0 0 10px darkgreen;
+}
+
+input[type="radio"]:checked+label{
+    background-color: #04cdff;
+    box-shadow: 0 0 10px #3333ff;
+    color: white;
+}
+
+/*available seat color*/
+article .ava{
+    background-color: #00f900;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/*non-available seat color*/
+article .nonava{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/*confirm button*/
+article .confirm{
+    background-color: blue;
+    width: 30%;
+}
+
+article .confirm:hover{
+    box-shadow: 0 0 10px lightskyblue;
+}
+
+.x-seat{
+    padding-right: 5px;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div .note{
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 70%;
+    text-align: left;
+}
+

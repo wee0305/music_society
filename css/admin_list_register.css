@@ -1,0 +1,70 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 15/9/2022
+   
+   Filename: admin_list_booking.css
+*/
+
+article div.e-details{
+    background-color: #01dbdf;
+    padding: 10px;
+    display: flex;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+article div.e-details img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+article h1.e-name{
+    padding: 10px;
+    display: flex;
+    margin-top: 40px;
+    text-shadow: 0 0 10px grey;
+    font-weight: bold;
+    color: white;
+}
+
+/*button width*/
+article div.btnGroup .button{
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+}
+
+article .btnGroup{
+    padding-bottom: 30px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1348px){
+    article div.e-details{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 808px) {
+
+    article div.btnGroup{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+}

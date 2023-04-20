@@ -1,0 +1,26 @@
+/*
+   Web System
+    
+   Music Society
+   Author:Leong Kuan Fei
+   Date: 27/7/2022
+   
+   Filename: index_footer.css
+
+*/
+
+/*footer*/
+footer{
+    background: url("../images/music_society_footer.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.social{
+    width: 50px;
+}
+
+footer a:hover{
+    text-shadow: 0 0 5px white;
+}
+
+
